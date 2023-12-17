@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+}
+ 
+/*=========================estrutura============================*/
+main {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.esquerda {
+    /*background-color: rgb(207, 207, 207);*/
+    width: 20vw;
+    height: 100vh;
+    margin: 0 2% 0 2%;
+
+}
+
+.meio {
+    /*background-color: rgb(207, 207, 207);*/
+    width: 60vw;
+    height: 100%;
+    margin: 1% 2% 0 2%;
+    border-left: 2px solid rgb(226, 225, 225);
+    border-right: 2px solid rgb(226, 225, 225);
+    display: flex;
+    flex-direction: column;
+}
+
+.direita {
+    /*background-color: rgb(207, 207, 207);*/
+    width: 20vw;
+    height: 100%;
+    margin: 0 2% 0 2%;
+}
+
+/*=======================conteudo=============================*/
+
+.noti {
+    display: flex;
+    /*background-color: aqua;*/
+    width: 100%;
+    margin: 2% 0 2% 8%;
+    font-size: 1.5vw;
+    padding-right: 20;
+}
+
+/*========================meio===========================*/
+.meio h1{
+    padding: 0 2% 0 2%;
+    font-size: 2vw; 
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    align-self: center;
+}
+.meio h2{
+    text-align: center;
+    padding: 0 2% 0 2%;
+    font-size: 1.6vw;
+}
+.meio p {
+    text-align: left;
+    padding: 2%;
+    font-size: 1.2vw;
+}
+
+/*imagens*/
+
+.imagem-principal{
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+
+}
+
+/**================CAIXA-ARTIGOS====================**/
+
+.caixa-artigo {
+    border-bottom: 2px solid ;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 10vw;
+    border-bottom: 2px solid  rgb(207, 207, 207);
+    border-top: 2px solid rgb(207, 207, 207);
+    margin: 5% 0 5% 0;
+
+}
+
+.caixa-artigo h2, p{
+    font-size: 100%;
+    text-align: center;
+    color: black;
+}
+
+.caixa-artigo a:hover{
+    color: red;
+   
+}
+
